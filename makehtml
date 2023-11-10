@@ -1,0 +1,2 @@
+cd $(dirname $0)
+./.venv/bin/python3.12 -m nbconvert ./src/main.ipynb --theme dark --output output.html --output-dir ./out --to html --execute
